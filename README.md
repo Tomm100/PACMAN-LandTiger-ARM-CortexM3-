@@ -4,7 +4,7 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
 
 | Idle | Snack/Meal | Cuddle | Volume ON/OFF | Game Over |
 |------|-----------|--------|---------------|-----------|
-| ![](Gifs/Test.gif) | ![](snack.gif) | ![](cuddle.gif) | ![](volume.gif) | ![](gameover.gif) |
+| ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) |
 
 
 <p align="center">
