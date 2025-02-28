@@ -7,11 +7,6 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
 | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) |
 
 
-<p align="center">
-  <img src="Gifs/Test.gif" alt="Demo GIF">
-</p>
-
-
 ## Requirements
 ### First part - Basic PacMan Game
 
