@@ -11,6 +11,7 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
 
 <br>
 <br>
+
 ## Requirements
 ### First part - Basic PacMan Game
 
