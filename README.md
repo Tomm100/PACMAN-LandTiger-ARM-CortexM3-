@@ -5,40 +5,15 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
 
 
 
-<style>
-    table {
-        width: 100vw; /* Forza la tabella a occupare tutta la larghezza dello schermo */
-        table-layout: fixed; /* Forza le colonne a occupare lo spazio uniformemente */
-        border-collapse: collapse; /* Unisce i bordi per un look più pulito */
-    }
-    th, td {
-        width: 20%; /* Suddivide equamente le colonne */
-        text-align: center; /* Centra il testo */
-        padding: 10px; /* Spazio interno */
-    }
-    img {
-        height: 180px; /* Mantiene l'altezza */
-        width: 100%; /* Fa sì che l'immagine riempia la cella */
-        object-fit: cover; /* Mantiene la proporzione evitando distorsioni */
-    }
-</style>
+# Tabella con GIF Alte e Proporzionate
 
-<table>
-    <tr>
-        <th>Game</th>
-        <th>Pacman Eats Ghost</th>
-        <th>Ghost Eats Pacman</th>
-        <th>Victory</th>
-        <th>Game Over</th>
-    </tr>
-    <tr>
-        <td><img src="Gifs/Test.gif"></td>
-        <td><img src="Gifs/Test.gif"></td>
-        <td><img src="Gifs/Test.gif"></td>
-        <td><img src="Gifs/Test.gif"></td>
-        <td><img src="Gifs/Test.gif"></td>
-    </tr>
-</table>
+Ecco una tabella con GIF più alte rispetto alla larghezza, distribuita su tutta la riga:
+
+| Game | Pacman Eats Ghost | Ghost Eats Pacman | Victory | Game Over |
+|------|------------------|------------------|---------|-----------|
+| ![Game](Gifs/Test.gif) | ![Pacman Eats Ghost](Gifs/Test.gif) | ![Ghost Eats Pacman](Gifs/Test.gif) | ![Victory](Gifs/Test.gif) | ![Game Over](Gifs/Test.gif) |
+
+
 
 
 
