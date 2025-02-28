@@ -2,6 +2,9 @@
 # Project Overview
 This project implements a Pac-Man game on the LandTiger board, which is powered by an ARM Cortex-M3 processor. It faithfully replicates the original Pac-Man mechanics while integrating specific functionalities required by the LandTiger board, including joystick controls, comprehensive game logic, AI-driven ghosts, sound effects, and CAN bus communication.
 
+
+
+
 <style>
     table {
         width: 100vw; /* Forza la tabella a occupare tutta la larghezza dello schermo */
@@ -36,10 +39,6 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
         <td><img src="Gifs/Test.gif"></td>
     </tr>
 </table>
-
-
-
-
 
 
 
