@@ -2,61 +2,44 @@
 # Project Overview
 This project implements a Pac-Man game on the LandTiger board, which is powered by an ARM Cortex-M3 processor. It faithfully replicates the original Pac-Man mechanics while integrating specific functionalities required by the LandTiger board, including joystick controls, comprehensive game logic, AI-driven ghosts, sound effects, and CAN bus communication.
 
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIF Grid</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #1a1a1a;
-            color: white;
-        }
-        table {
-            width: 100%;
-            max-width: 800px;
-            margin: auto;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 2px solid #444;
-            padding: 10px;
-            background-color: #222;
-            text-align: center;
-        }
-        img {
-            width: auto; /* Mantiene la proporzione */
-            height: 180px; /* Imposta un'altezza maggiore della larghezza */
-            object-fit: contain; /* Evita il taglio dell'immagine */
-        }
-    </style>
-</head>
-<body>
+<style>
+    table {
+        width: 100vw; /* Forza la tabella a occupare tutta la larghezza dello schermo */
+        table-layout: fixed; /* Forza le colonne a occupare lo spazio uniformemente */
+        border-collapse: collapse; /* Unisce i bordi per un look più pulito */
+    }
+    th, td {
+        width: 20%; /* Suddivide equamente le colonne */
+        text-align: center; /* Centra il testo */
+        padding: 10px; /* Spazio interno */
+    }
+    img {
+        height: 180px; /* Mantiene l'altezza */
+        width: 100%; /* Fa sì che l'immagine riempia la cella */
+        object-fit: cover; /* Mantiene la proporzione evitando distorsioni */
+    }
+</style>
 
-    <h2>Tabella con GIF Alte e Proporzionate</h2>
+<table>
+    <tr>
+        <th>Game</th>
+        <th>Pacman Eats Ghost</th>
+        <th>Ghost Eats Pacman</th>
+        <th>Victory</th>
+        <th>Game Over</th>
+    </tr>
+    <tr>
+        <td><img src="Gifs/Test.gif"></td>
+        <td><img src="Gifs/Test.gif"></td>
+        <td><img src="Gifs/Test.gif"></td>
+        <td><img src="Gifs/Test.gif"></td>
+        <td><img src="Gifs/Test.gif"></td>
+    </tr>
+</table>
 
-    <table>
-        <tr>
-            <th>Game</th>
-            <th>PacmanEatsGhost</th>
-            <th>GhostEatsPacman</th>
-            <th>Victory</th>
-            <th>Game Over</th>
-        </tr>
-        <tr>
-            <td><img src="Gifs/Test.gif" alt="Game"></td>
-            <td><img src="Gifs/Test.gif" alt="PacmanEatsGhost"></td>
-            <td><img src="Gifs/Test.gif" alt="GhostEatsPacman"></td>
-            <td><img src="Gifs/Test.gif" alt="Victory"></td>
-            <td><img src="Gifs/Test.gif" alt="Game Over"></td>
-        </tr>
-    </table>
 
-</body>
-</html>
+
+
 
 
 
