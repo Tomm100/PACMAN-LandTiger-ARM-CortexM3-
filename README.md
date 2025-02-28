@@ -2,9 +2,61 @@
 # Project Overview
 This project implements a Pac-Man game on the LandTiger board, which is powered by an ARM Cortex-M3 processor. It faithfully replicates the original Pac-Man mechanics while integrating specific functionalities required by the LandTiger board, including joystick controls, comprehensive game logic, AI-driven ghosts, sound effects, and CAN bus communication.
 
-| Game | PacmanEatsGhost | GhostEatsPacman | Victory | Game Over |
-|------|----------------|----------------|---------|-----------|
-| <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> |
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        table {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid #444;
+            padding: 10px;
+            background-color: #222;
+            text-align: center;
+        }
+        img {
+            width: auto; /* Mantiene la proporzione */
+            height: 180px; /* Imposta un'altezza maggiore della larghezza */
+            object-fit: contain; /* Evita il taglio dell'immagine */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Tabella con GIF Alte e Proporzionate</h2>
+
+    <table>
+        <tr>
+            <th>Game</th>
+            <th>PacmanEatsGhost</th>
+            <th>GhostEatsPacman</th>
+            <th>Victory</th>
+            <th>Game Over</th>
+        </tr>
+        <tr>
+            <td><img src="Gifs/Test.gif" alt="Game"></td>
+            <td><img src="Gifs/Test.gif" alt="PacmanEatsGhost"></td>
+            <td><img src="Gifs/Test.gif" alt="GhostEatsPacman"></td>
+            <td><img src="Gifs/Test.gif" alt="Victory"></td>
+            <td><img src="Gifs/Test.gif" alt="Game Over"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
 
 
 
