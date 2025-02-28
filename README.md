@@ -60,5 +60,5 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
 ## Contributors
   - **Author:** Tommaso Centonze
 ## License
-  - This project is released under the MIT License. 
+  - This project is licensed under the [MIT License](LICENSE).
   
