@@ -3,8 +3,9 @@
 This project implements a Pac-Man game on the LandTiger board, which is powered by an ARM Cortex-M3 processor. It faithfully replicates the original Pac-Man mechanics while integrating specific functionalities required by the LandTiger board, including joystick controls, comprehensive game logic, AI-driven ghosts, sound effects, and CAN bus communication.
 
 | Game | PacmanEatsGhost | GhostEatsPacman | Victory | Game Over |
-|------|-----------|--------|---------------|-----------|
-| ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) | ![](Gifs/Test.gif) |
+|------|----------------|----------------|---------|-----------|
+| <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> | <img src="Gifs/Test.gif" width="150" height="150"> |
+
 
 
 ## Requirements
