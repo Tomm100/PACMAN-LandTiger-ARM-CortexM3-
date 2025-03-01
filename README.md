@@ -13,11 +13,11 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
     <th>Game Over</th>
   </tr>
   <tr>
-    <td><img src="Gifs/game.gif" width="150"></td>
-    <td><img src="Gifs/pacmanEatsGhost.gif" width="150"></td>
-    <td><img src="Gifs/ghostEatsPacman.gif" width="150"></td>
-    <td><img src="Gifs/victory.gif" width="150"></td>
-    <td><img src="Gifs/gameOver.gif" width="150"></td>
+    <td><img src="Gifs/game.gif" width="300"></td>
+    <td><img src="Gifs/pacmanEatsGhost.gif" width="300"></td>
+    <td><img src="Gifs/ghostEatsPacman.gif" width="300"></td>
+    <td><img src="Gifs/victory.gif" width="300"></td>
+    <td><img src="Gifs/gameOver.gif" width="300"></td>
   </tr>
 </table>
 
