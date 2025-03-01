@@ -6,7 +6,7 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
 
 | Game | Pacman Eats Ghost | Ghost Eats Pacman | Victory | Game Over |
 |------|------------------|------------------|---------|-----------|
-| ![Game](Gifs/InGame.gif) | ![Pacman Eats Ghost](Gifs/Test.gif) | ![Ghost Eats Pacman](Gifs/Test.gif) | ![Victory](Gifs/Test.gif) | ![Game Over](Gifs/GameOver.gif) |
+| ![Game](Gifs/game.gif) | ![Pacman Eats Ghost](Gifs/pacmanEatsGhost.gif) | ![Ghost Eats Pacman](Gifs/ghostEatsPacman.gif) | ![Victory](Gifs/victory.gif) | ![Game Over](Gifs/gameOver.gif) |
 
 <br>
 <br>
