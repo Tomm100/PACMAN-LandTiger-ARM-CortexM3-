@@ -4,9 +4,24 @@ This project implements a Pac-Man game on the LandTiger board, which is powered 
 <br>
 <br>
 
-| Game | Pacman Eats Ghost | Ghost Eats Pacman | Victory | Game Over |
-|------|------------------|------------------|---------|-----------|
-| ![Game](Gifs/game.gif) | ![Pacman Eats Ghost](Gifs/pacmanEatsGhost.gif) | ![Ghost Eats Pacman](Gifs/ghostEatsPacman.gif) | ![Victory](Gifs/victory.gif) | ![Game Over](Gifs/gameOver.gif) |
+<table>
+  <tr>
+    <th>Game</th>
+    <th>Pacman Eats Ghost</th>
+    <th>Ghost Eats Pacman</th>
+    <th>Victory</th>
+    <th>Game Over</th>
+  </tr>
+  <tr>
+    <td><img src="Gifs/game.gif" width="150"></td>
+    <td><img src="Gifs/pacmanEatsGhost.gif" width="150"></td>
+    <td><img src="Gifs/ghostEatsPacman.gif" width="150"></td>
+    <td><img src="Gifs/victory.gif" width="150"></td>
+    <td><img src="Gifs/gameOver.gif" width="150"></td>
+  </tr>
+</table>
+
+
 
 <br>
 <br>
